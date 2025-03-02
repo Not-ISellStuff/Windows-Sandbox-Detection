@@ -1,6 +1,12 @@
 # Windows-Sandbox-Detection
 Basic sandbox detection for windows. It only detects vmware, virtual box hyper-v, and qemu. It's not very good.
 
+# Compile
+
+```
+gcc detect.c -o main -lpsapi -mwindows
+```
+
 # Methods used
 
 ```
